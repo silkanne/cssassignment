@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/30b423238f.js" crossorigin="anonymous"></script> <!--fontawesome link for icoins-->
-    <link rel="stylesheet" href="./Styles/styles.css">
-    
+    <script
+      src="https://kit.fontawesome.com/30b423238f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--fontawesome link for icoins-->
+    <link rel="stylesheet" href="./Styles/styles.css" />
   </head>
 
   <body>
@@ -14,8 +17,9 @@
     <header class="horizontal">
       <!-- parent div -->
 
-      <div id="logo"> <!--page logo div-->
-        <img src="./image/amike logo.png" alt="pagelogo" width="100px"/>
+      <div id="logo">
+        <!--page logo div-->
+        <img src="./image/amike logo.png" alt="pagelogo" width="100px" />
       </div>
 
       <nav>
@@ -34,50 +38,129 @@
 
     <!--main section -->
     <main id="main">
-        <section id="home" class="horizontal"> <!--perent section for main page-->
-            <div><!--this div holds icons and main pages information-->
-         <div class="social-icons horizontal"> <!--this div holds icon-->
-        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
-        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
-        <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
-        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
-        <div class="icon"><i class="fa-brands fa-behance"></i></div>
-         </div>
+      <section id="home" class="horizontal">
+        <!--perent section for main page-->
+        <div>
+          <!--this div holds icons and main pages information-->
+          <div class="social-icons horizontal">
+            <!--this div holds icon-->
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="icon"><i class="fa-brands fa-behance"></i></div>
+          </div>
 
-         <h2>I am Jonathan Doe</h2>
-         <p>i'm Jonathan, professional web developer with <br> long time experience in this field​</p>
-         <div><!--port folio an youtube icon-->
-         <button id="change" class="icon"> My Portfolio</button>
-         <button id="you"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></button>
-         </div>
+          <h2>I am Jonathan Doe</h2>
+          <p>
+            i'm Jonathan, professional web developer with <br />
+            long time experience in this field​
+          </p>
+          <div>
+            <!--port folio an youtube icon-->
+            <button id="change" class="icon">My Portfolio</button>
+            <button id="you">
+              <i class="fa-brands fa-youtube" style="color: #ff0000"></i>
+            </button>
+          </div>
+        </div>
+
+        <div id="man">
+          <!--main page image of a man standing-->
+          <img src="./image/man-01.png" alt="man picture" width="400px" />
+        </div>
+      </section>
+      <!--home page section ends here-->
+
+      <section id="service">
+        <!--my service section-->
+        <div id="serv"><!--parent div-->
+          <h3>SERVICES</h3>
+          <h2 class="service">My Service</h2>
+
+          <div>   <!--myservic div-->
+          
+            <p class="Lorem">Lorem Ipsum is simply dummy text of the printing and typesetting <br> <p id="text" class="Lorem">industry. Lorem Ipsum standard dummy text.</p></p>
+            <p id="dash">____</p>
+
+          </div>
+          <!-- <div> -->
+
+          <div class="service-container">
+
+              <div id="github"class="service-card ">
+                <i class="fa-brands fa-github"></i>
+                
+                <h2 id="mes">Web Development</h2>
+
+                <p id="service-text">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+              </div>
+
+              <div class="service-card">
+                  <i id="fa-box" class="fa-sharp fa-solid fa-box"></i>
+                    <h4 id="webdesign-text">Web Design</h4>
+                    <p id="webdesign-page">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+              </div>
+
+              <div class="service-card">
+                <div id="videoicon"><i class="fa-solid fa-file-video"></i></div>
+                <h2 id="video-editpage">Video Editing</h2>
+                <p id="videotext">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+              </div>
+            
+
+        
+            <div class="service-card">
+                <div id="cameraicon"><i class="fa-solid fa-camera"></i></div>
+                <h2 id="camera">Photography</h2>
+                <p id="camera-text">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
             </div>
 
-            <div id="man"> <!--main page image of a man standing-->
-          <img src="./image/man-01.png" alt="man picture" width="400px">
+            <div class="service-card">
+              <div id="apple-icon"><i class="fa-brands fa-apple"></i></div>
+              <h2 id="apple-name"><b>App Developing</b></h2>
+              <p id="apple-text">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
             </div>
-        </section> <!--home page section ends here-->
 
-        <section id="service"> <!--my service section-->
-         <h2>Service</h2>       
-        </section>
-        <section id="about"> <!--my About section-->
-         <h2>About</h2>       
-        </section>
-        <section id="skills"> <!--my skills section-->
-         <h2>Skills</h2>       
-        </section>
-        <section id="portfolio"> <!--my portfolio section-->
-         <h2>Portfolio</h2>       
-        </section>
-        <section id="blog"> <!--my blog section-->
-         <h2>Blog</h2>       
-        </section>
-        <section id="contact"> <!--my contact section-->
-         <h2>Contact</h2>       
-        </section>
+            <div class="service-card">
+              <div id="yicon"><i class="fa-brands fa-yoast"></i></div>
+              <h2 id="seo">SEO Expart</h2>
+              <p id="ytext">Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
 
+            </div>
+          </div>
+  
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <section id="about">
+        <!--my About section-->
+        <h2>About</h2>
+      </section>
+      <section id="skills">
+        <!--my skills section-->
+        <h2>Skills</h2>
+      </section>
+      <section id="portfolio">
+        <!--my portfolio section-->
+        <h2>Portfolio</h2>
+      </section>
+      <section id="blog">
+        <!--my blog section-->
+        <h2>Blog</h2>
+      </section>
+      <section id="contact">
+        <!--my contact section-->
+        <h2>Contact</h2>
+      </section>
     </main>
-
 
     <!--footer section -->
     <footer>

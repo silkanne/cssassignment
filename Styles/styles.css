@@ -72,3 +72,174 @@ p {
 #you {
   size: -90px;
 }
+
+/* SERVICE SECTION FOR NAVIGATION */
+
+h3{
+  color: red;
+  justify-content: center;
+ margin-left: 600px;
+}
+
+#dash{
+  color: red;
+  margin-left: 620px;
+  justify-content: center;
+margin-bottom: 0px;
+}
+
+
+#serv{
+  background-color: #1F2235;
+  color: #fff;
+}
+.service{
+  margin-left: 500px;
+ 
+}
+
+.Lorem{ 
+ font-size: medium;
+ margin-left: 400px;
+}
+
+#text{
+  font-size: 14px;
+  margin-top: -1px;
+ padding-left: 80px;
+}
+
+.service-card{
+  height: 300px;
+  width: 300px;
+   background-color: darkgray;
+   margin: 6px;
+   border-radius: 16px;
+   justify-content: center;
+   padding:0 68px;
+}
+
+.service-container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+  padding: 38px 98px;
+  
+}
+
+.git{
+  size: 200px;
+  /* margin-bottom:300px; */
+  padding-top: -50px;
+  color: red;
+}
+
+#mes{
+  font-size: 21px;
+  
+}
+
+#github{
+font-size: 40px;
+padding-top: 30px;
+
+}
+
+#service-text{
+  font-size: 20px;
+  margin-top: 30px;
+  
+}
+
+.service-container :hover{
+  color: red;
+  
+}
+
+#webdesign-text{
+  font-size: 20px;
+ padding-top: 25px;  
+  padding-right: 20px;
+  margin-bottom: 15px;
+ 
+  
+}
+
+#webdesign-page{
+font-size: 20px;
+padding-top: 15px;
+
+}
+
+#fa-box{
+ margin-top: 30px;
+ font-size: 40px;
+  
+}
+
+#webdesign-page{
+  font-size: 20px;
+  margin-top: 5px;
+}
+#videoicon{
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+#video-editpage{
+  font-size: 20px;
+}
+
+#videotext{
+  font-size: 20px;
+  padding-top: -100px;
+  margin-top: 30px;
+}
+
+#cameraicon{
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+#camera{
+  font-size: 25px;
+}
+
+#camera-text{
+  font-size: 20px;
+justify-content: center;
+margin-top: 20px;
+}
+
+#apple-icon{
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+#apple-name{
+  font-size: 20px;
+   margin-top: 10px;
+  
+}
+
+#apple-text{
+  font-size: 20px;
+margin-top: 20px;
+}
+
+#yicon{
+  font-size: 50px;
+  padding-top: 30px;
+
+}
+
+#seo{
+  font-size: 20px;
+}
+
+#ytext{
+  font-size: 20px;
+  /* padding-top: -30px; */
+  margin-top: 20px;
+}
