@@ -19,6 +19,7 @@ header {
   color: #fff;
 }
 
+
 .nav-item {
   list-style: none;
   margin-right: 38px;
@@ -35,6 +36,10 @@ header {
 
 .social-icons {
   justify-content: flex-start;
+}
+
+.icon:hover{
+  background-color: #ff4a57;
 }
 
 .icon {
@@ -112,11 +117,16 @@ margin-bottom: 0px;
 .service-card{
   height: 300px;
   width: 300px;
-   background-color: darkgray;
+   background-color:#23263A;
    margin: 6px;
    border-radius: 16px;
    justify-content: center;
    padding:0 68px;
+
+}
+
+.service-card:hover {
+  background-color: #ff4a57;
 }
 
 .service-container{
@@ -152,10 +162,7 @@ padding-top: 30px;
   
 }
 
-.service-container :hover{
-  color: red;
-  
-}
+
 
 #webdesign-text{
   font-size: 20px;
